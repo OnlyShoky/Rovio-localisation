@@ -1,0 +1,13 @@
+image_width: 752
+image_height: 480
+camera_name: cama
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [698.302132302, 0.0, 382.322240418, 0.0, 700.278505769, 200.017168983, 0.0, 0.0, 1.0]
+distortion_model: equidistant
+distortion_coefficients:
+  rows: 1
+  cols: 4
+  data: [0.295170416683, 0.439936350049, -1.25233362331, 2.20417152668]
+
