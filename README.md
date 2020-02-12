@@ -3,3 +3,22 @@ Rovio localisation using a camera ( bluefox MLC 200w G -UTW 7111) and IMU (mpu60
 
 Bag test with the camera and imu calibrated and synchronized :
 https://drive.google.com/file/d/1U5V8I_a4C22aDRN2bvX3oa4yei__YcHq/view?usp=sharing
+
+Instructions pour l'instalation( Il faut ubuntu 16.04 et la version kinetic de ros :
+
+cd catkin_ws/src
+catkin build
+catkin build rovio --cmake-args -DCMAKE_BUILD_TYPE=Release -DMAKE_SCENE=ON -DROVIO_NCAM=1
+
+Instruction pour l'utilisation:
+
+
+
+Liens utilisé pour ce projet :
+https://github.com/ethz-asl/rovio
+http://grauonline.de/wordpress/?page_id=1951
+https://github.com/ethz-asl/kindr
+
+
+Logiciel utilisé pour la calibration et l'exportation en fichier yaml pour rovio
+https://github.com/ethz-asl/kalibr
