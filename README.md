@@ -11,6 +11,16 @@ catkin build \
 catkin build rovio --cmake-args -DCMAKE_BUILD_TYPE=Release -DMAKE_SCENE=ON -DROVIO_NCAM=1 \
 
 Instruction pour l'utilisation:
+% In one terminal %
+source devel/setup.bash \
+roslaunch rovio rovio_node.launch \
+
+%In another terminal%
+roslaunch bluefox2 single_node.launch device:=25001581
+
+Ligne d'instalations si erreur de catkin build :
+(Serial) sudo apt-get install ros-kinetic-serial
+
 
 
 
