@@ -6,9 +6,9 @@ https://drive.google.com/file/d/1U5V8I_a4C22aDRN2bvX3oa4yei__YcHq/view?usp=shari
 
 Instructions pour l'instalation( Il faut ubuntu 16.04 et la version kinetic de ros :
 
-cd catkin_ws/src
-catkin build
-catkin build rovio --cmake-args -DCMAKE_BUILD_TYPE=Release -DMAKE_SCENE=ON -DROVIO_NCAM=1
+cd catkin_ws/src \
+catkin build \
+catkin build rovio --cmake-args -DCMAKE_BUILD_TYPE=Release -DMAKE_SCENE=ON -DROVIO_NCAM=1 \
 
 Instruction pour l'utilisation:
 
