@@ -24,11 +24,11 @@ Ligne d'instalations si erreur de catkin build :  \
 
 
 
-Liens utilisé pour ce projet :
-https://github.com/ethz-asl/rovio
-http://grauonline.de/wordpress/?page_id=1951
-https://github.com/ethz-asl/kindr
+Liens utilisé pour ce projet :  \
+https://github.com/ethz-asl/rovio  \
+http://grauonline.de/wordpress/?page_id=1951  \
+https://github.com/ethz-asl/kindr  \
 
 
-Logiciel utilisé pour la calibration et l'exportation en fichier yaml pour rovio
-https://github.com/ethz-asl/kalibr
+Logiciel utilisé pour la calibration et l'exportation en fichier yaml pour rovio  \
+https://github.com/ethz-asl/kalibr  \
